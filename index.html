@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div id="nav-box">
+            <div id="nav-info">
+                <div id="nav-logo">
+                    <div class="nav-logo-bar"></div>
+                    <div class="nav-logo-bar"></div>
+                </div>
+                <div id="nav-title"><a href="index.html">신채연 포트폴리오</a></div>
+                <div id="nav-time"></div>
+            </div>
+            <div id="nav-menu">
+                <ul class="menus">
+                    <li><a href="#about" class="menu">About</a></li>
+                    <li><a href="#work" class="menu">Work</a></li>
+                    <li><a href="#log" class="menu">Log</a></li>
+                    <li id="menu-bar">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <section>
+        <div id="container">
+            <div class="rect">
+                <div id="my-group">
+                    <div id="my-name">
+                        01100011<br>
+                        01101000<br>
+                        01100101<br>
+                        01111001<br>
+                        01100101<br>
+                        01101110<br>
+                        01101110<br>
+                        01100101
+                    </div>
+                    <div id="my-img">
+                        <img src="img/plant.png" alt="">
+                    </div>
+                </div>
+                <div id="my-introduce">
+                    <p>안녕하세요! 백엔드 개발하는 <span>신채연</span>입니다.</p>
+                </div>
+            </div>
+            <div class="rect">
+                Java
+                Python
+                Javascript
+                React
+            </div>
+            <div class="rect up" id="work"">
+                <div id="picker"></div>
+                <div id="color-info"></div>
+                <p>
+                    당신은 designer? <br>
+                    포트폴리오를 준비 중인가요? <br>
+                    오늘의 코디를 고민하세요? <br>
+                    <span style="color: #ff0565">색상</span>은 누구에게나 중요합니다! <br>
+                </p>
+                <div id="color-description">
+                    색상을 선택한 후 오른쪽 빈 원을 클릭하세요.<br>
+                    선택 후 네모를 클릭하면 색상코드가 자동복사됩니다. <br>
+                    참고한 <a href="https://iro.js.org" target="_blank" style="text-decoration: underline;">iro.js</a>는 색상 추출을 위한 위젯입니다.
+
+                </div>
+
+            </div>
+            <div class="rect up" id="palette-text">
+                <h1>나만의 <span>팔레트</span>를 구성하세요</h1>
+                <input type="text" name="palette" id="palette" value="click to auto-copy your collection" readonly>
+                <div id="color-container">
+                    <div class="color">1</div>
+                    <div class="color">2</div>
+                    <div class="color">3</div>
+                    <div class="color">4</div>
+                    <div class="color">5</div>
+                    <div class="color">6</div>
+                </div>
+            </div>
+            <div class="rect"></div>
+            <div class="rect"></div>
+        </div>
+
+    </section>
+    <footer>
+        <div id="contact-box">
+            <div class="contact"><a href="http://github.com/shinecheyenne" target="_blank"><img src="img/github.png" alt="github"><p>github</p></a></div>
+            <div class="contact"><a href="#" target="_blank"><img src="img/notion.svg" alt="notion"><p>notion</p></a></div>
+            <div class="contact"><a href="mailto:duma.abyssinia@gmail.com"><img src="img/email.png" alt="email"><p>email</p></a></div>    
+        </div>
+</footer>
+    
+    <script src="time.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
